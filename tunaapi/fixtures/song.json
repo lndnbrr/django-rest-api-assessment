@@ -1,0 +1,22 @@
+[
+  {
+    "model": "tunaapi.song",
+    "pk": 1,
+    "fields": {
+      "title": "Treasure",
+      "artist": 1,
+      "album": "Unorthodox Jukebox",
+      "length": 177
+    }
+  },
+  {
+    "model": "tunaapi.song",
+    "pk": 2,
+    "fields": {
+      "title": "Super Bass",
+      "artist": 2,
+      "album": "Pink Friday",
+      "length": 210
+    }
+  }
+]

@@ -11,7 +11,7 @@ class ArtistViewSet (ViewSet):
     artist = Artist.objects.get(pk=pk)
     songs = Song.objects.filter(artist = artist)
     artist.song_count = songs.count()
-    artist.songs = songs
+    artist.songs.set(songs)
     serialized = SingleArtistSerializer(artist)
     return Response(serialized.data, status=status.HTTP_200_OK)
   

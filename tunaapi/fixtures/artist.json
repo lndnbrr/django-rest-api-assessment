@@ -1,0 +1,20 @@
+[
+  {
+    "model": "tunaapi.artist",
+    "pk": 1,
+    "fields": {
+      "name": "Bruno Mars",
+      "age": 39,
+      "bio": "I gave you all the good music growing up."
+    }
+  },
+  {
+    "model": "tunaapi.artist",
+    "pk": 2,
+    "fields": {
+      "name": "Nicki Minaj",
+      "age": 42,
+      "bio": "Pink is the aesthetic"
+    }
+  }
+]

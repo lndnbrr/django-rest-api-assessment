@@ -1,0 +1,16 @@
+[
+  {
+    "model": "tunaapi.genre",
+    "pk": 1,
+    "fields": {
+      "description": "Rap"
+    }
+  },
+  {
+    "model": "tunaapi.genre",
+    "pk": 2,
+    "fields": {
+      "description": "Pop"
+    }
+  }
+]
